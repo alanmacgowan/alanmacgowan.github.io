@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-09-29T21:38:27.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="uyMOtcmpcpydDGeDuAmX" version="13.6.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-09-30T03:25:39.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="qV4_GW1cAmhn6M3Xe8_p" version="13.6.0" type="github" pages="3">
   <diagram name="CI" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
         <mxCell id="mYcb6gYkICD3tmM7mdMH-135" value="MS Teams" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.globe_internet;" parent="1" vertex="1">
           <mxGeometry x="204.5" y="100" width="39" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mYcb6gYkICD3tmM7mdMH-139" value="deploy artifact" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;" parent="1" vertex="1">
+        <mxCell id="mYcb6gYkICD3tmM7mdMH-139" value="web zip file" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;" parent="1" vertex="1">
           <mxGeometry x="326" y="236" width="27" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rPL5aPEo77-r_8aMSOxh-47" value="Jira" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.servers.server_generic;fillColor=#2072B8;fontSize=27;fontColor=#000000;align=center;" vertex="1" parent="1">
@@ -168,12 +168,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rPL5aPEo77-r_8aMSOxh-53" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="420" as="sourcePoint" />
-            <mxPoint x="570" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rPL5aPEo77-r_8aMSOxh-55" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" source="rPL5aPEo77-r_8aMSOxh-47" target="mYcb6gYkICD3tmM7mdMH-123">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="770" y="160" as="sourcePoint" />
@@ -185,6 +179,24 @@
             <mxPoint x="510" y="140" as="sourcePoint" />
             <mxPoint x="560" y="90" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9ym5Xc9CdwEk9YuXHtV4-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="236" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9ym5Xc9CdwEk9YuXHtV4-48" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.concepts.documents;fontSize=27;fontColor=#000000;align=center;" vertex="1" parent="9ym5Xc9CdwEk9YuXHtV4-47">
+          <mxGeometry x="20" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ym5Xc9CdwEk9YuXHtV4-49" value="SQL script" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="9ym5Xc9CdwEk9YuXHtV4-47">
+          <mxGeometry y="30" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ym5Xc9CdwEk9YuXHtV4-50" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="236" y="236" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9ym5Xc9CdwEk9YuXHtV4-51" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.concepts.documents;fontSize=27;fontColor=#000000;align=center;" vertex="1" parent="9ym5Xc9CdwEk9YuXHtV4-50">
+          <mxGeometry x="20" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ym5Xc9CdwEk9YuXHtV4-52" value="config file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="9ym5Xc9CdwEk9YuXHtV4-50">
+          <mxGeometry y="30" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -302,6 +314,32 @@
         </mxCell>
         <mxCell id="rSpntgLMjczr55fu7O1w-28" value="MS Teams" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="DHs1CyMFvQxausyU5Zmj-1">
           <mxGeometry x="700" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-oiGy_HBEzw2VOR6vq_Z" name="Components">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="M5f9IoiYDXhPrItpX3NM-0" />
+        <mxCell id="M5f9IoiYDXhPrItpX3NM-1" parent="M5f9IoiYDXhPrItpX3NM-0" />
+        <mxCell id="M5f9IoiYDXhPrItpX3NM-2" value="Epic" style="html=1;" vertex="1" parent="M5f9IoiYDXhPrItpX3NM-1">
+          <mxGeometry x="190" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n20chFVRfnetvSXyzyeY-0" value="Issue" style="html=1;" vertex="1" parent="M5f9IoiYDXhPrItpX3NM-1">
+          <mxGeometry x="340" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n20chFVRfnetvSXyzyeY-1" value="Project" style="html=1;" vertex="1" parent="M5f9IoiYDXhPrItpX3NM-1">
+          <mxGeometry x="50" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n20chFVRfnetvSXyzyeY-2" value="Release" style="html=1;" vertex="1" parent="M5f9IoiYDXhPrItpX3NM-1">
+          <mxGeometry x="190" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n20chFVRfnetvSXyzyeY-4" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="M5f9IoiYDXhPrItpX3NM-1" source="M5f9IoiYDXhPrItpX3NM-2" target="n20chFVRfnetvSXyzyeY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="260" as="sourcePoint" />
+            <mxPoint x="160" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
