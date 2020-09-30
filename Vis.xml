@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-09-30T13:46:26.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="fQhfCR6aCM5_tH72xiu_" version="13.6.0" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-09-30T16:12:54.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="WPmxwlIa8_KEFeHV0GXi" version="13.6.0" type="github" pages="4">
   <diagram name="CI" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -467,32 +467,116 @@
       <root>
         <mxCell id="-XchORB1sOgm_aGVcK5D-0" />
         <mxCell id="-XchORB1sOgm_aGVcK5D-1" parent="-XchORB1sOgm_aGVcK5D-0" />
-        <mxCell id="6jqZUROCDMUzus6pq460-0" value="Get&#xa;Source Code" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="150" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-0" value="Get&#xa;Source Code" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="29" y="83" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-1" value="Restore&#xa;Dependencies" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="238" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-1" value="Restore&#xa;Dependencies" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="117" y="83" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-2" value="Set Version" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="326" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-2" value="Set Version" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="205" y="83" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-3" value="Build and &#xa;Package" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="414" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-3" value="Build" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="293" y="83" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-4" value="Deploy" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="503" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-4" value="Deploy" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="382" y="83" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-5" value="Smoke Test" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="591" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-5" value="Smoke Test" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="470" y="83" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-6" value="Merge and&#xa;Tag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="679" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="6jqZUROCDMUzus6pq460-8" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;AloraPlus&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="40" y="49" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-7" value="Step 3" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="767" y="90" width="100" height="57" as="geometry" />
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-0" value="Get&#xa;Source Code&#xa;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="29" y="192" width="100" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="6jqZUROCDMUzus6pq460-8" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 15px&quot;&gt;AloraPlus&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
-          <mxGeometry x="50" y="108.5" width="40" height="20" as="geometry" />
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-1" value="Build &#xa;Projects" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="117" y="192" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-2" value="Unpack" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="205" y="192" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-3" value="Compare and&#xa;Generate Script" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="293" y="192" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-4" value="Archive&#xa;Artifacts" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="382" y="192" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-8" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;AloraDatabase&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="59" y="162" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-10" value="Get&#xa;Source Code" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="29" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-11" value="Restore&#xa;Dependencies" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="117" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-12" value="Set Version" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="205" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-13" value="Build and &#xa;Package" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="293" y="302" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-14" value="Deploy" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="382" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-15" value="Smoke Test" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="470" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-16" value="Merge and&#xa;Tag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="558" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-17" value="Notify" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="735" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-18" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;AloraPlus_Release&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="73" y="273" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-19" value="Archive&#xa;Artifacts" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="647" y="303" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-20" value="Generate SQL &#xa;Script" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="293" y="368" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-21" value="Deploy" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="470" y="192" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-22" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Branch:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Trigger:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Frequency:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;File:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Params:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Artifacts:&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=10;base=0;position2=0.08;fillColor=#fff2cc;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="700" y="56" width="200" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-23" value="Get&#xa;Source Code" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="29" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-24" value="Restore&#xa;Dependencies" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="117" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-25" value="Set Version" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="205" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-26" value="Build and &#xa;Package" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="293" y="452" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-27" value="Deploy" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="382" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-28" value="Smoke Test" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="470" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-29" value="Merge and&#xa;Tag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="558" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-30" value="Notify" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="735" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-31" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;AloraPlus_Hotfix&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="73" y="423" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-32" value="Archive&#xa;Artifacts" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="647" y="453" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bpJqZdq5LfQCIFEyUDVT-33" value="Generate SQL &#xa;Script" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=10;fontStyle=1" vertex="1" parent="-XchORB1sOgm_aGVcK5D-1">
+          <mxGeometry x="293" y="518" width="100" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
