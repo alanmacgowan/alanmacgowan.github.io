@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-05T21:04:07.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Fm_2tqxN9lArbrGKrVJ3" version="13.5.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-10-05T21:08:58.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="eODd__9aT3pSQE5I4KAG" version="13.5.8" type="github" pages="6">
   <diagram name="CI" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -136,15 +136,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mYcb6gYkICD3tmM7mdMH-127" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="781" y="226" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.concepts.documents;fontSize=27;fontColor=#000000;align=center;" parent="mYcb6gYkICD3tmM7mdMH-127" vertex="1">
-          <mxGeometry x="20" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mYcb6gYkICD3tmM7mdMH-126" value="jenkinsfile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="mYcb6gYkICD3tmM7mdMH-127" vertex="1">
-          <mxGeometry y="30" width="70" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="rPL5aPEo77-r_8aMSOxh-51" value="create relese notes" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry x="-0.0065" y="-4" relative="1" as="geometry">
             <mxPoint x="482" y="266" as="sourcePoint" />
@@ -215,24 +206,6 @@
         <mxCell id="9ym5Xc9CdwEk9YuXHtV4-52" value="config file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="9ym5Xc9CdwEk9YuXHtV4-50" vertex="1">
           <mxGeometry y="25.875" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eU9i5ol-Fa-ru-L_1BH8-47" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="740" y="90" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eU9i5ol-Fa-ru-L_1BH8-48" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.concepts.documents;fontSize=27;fontColor=#000000;align=center;" parent="eU9i5ol-Fa-ru-L_1BH8-47" vertex="1">
-          <mxGeometry x="20" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eU9i5ol-Fa-ru-L_1BH8-49" value="issues" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="eU9i5ol-Fa-ru-L_1BH8-47" vertex="1">
-          <mxGeometry x="10" y="30" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="eU9i5ol-Fa-ru-L_1BH8-50" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="410" y="90" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eU9i5ol-Fa-ru-L_1BH8-51" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.concepts.documents;fontSize=27;fontColor=#000000;align=center;" parent="eU9i5ol-Fa-ru-L_1BH8-50" vertex="1">
-          <mxGeometry x="20" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eU9i5ol-Fa-ru-L_1BH8-52" value="release notes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="eU9i5ol-Fa-ru-L_1BH8-50" vertex="1">
-          <mxGeometry x="-10" y="30" width="90" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="YTMYvXon0wyW5Hkcydcv-47" value="Confluence" style="image;image=img/lib/atlassian/Confluence_Logo.svg;" vertex="1" parent="1">
           <mxGeometry x="490" y="97" width="43" height="43" as="geometry" />
         </mxCell>
@@ -247,6 +220,18 @@
         </mxCell>
         <mxCell id="FpAisen0iH2zdq6Yudrm-48" value="MS Teams" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-10-128.png" vertex="1" parent="1">
           <mxGeometry x="283.65" y="94.5" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z3gCRXtOuAII0SNaVBMn-47" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.script_file" vertex="1" parent="1">
+          <mxGeometry x="800" y="305.28" width="27" height="28.72" as="geometry" />
+        </mxCell>
+        <mxCell id="z3gCRXtOuAII0SNaVBMn-48" value="release notes" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="427" y="90" width="20" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="z3gCRXtOuAII0SNaVBMn-51" value="issues" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="761" y="90" width="20" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="z3gCRXtOuAII0SNaVBMn-52" value="jenkinsfile" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="800" y="220" width="20" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
