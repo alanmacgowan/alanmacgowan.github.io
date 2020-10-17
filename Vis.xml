@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T03:15:02.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8Cc1Tu8GpsiPSQJ6jj3u" version="13.7.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-10-17T00:17:44.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="9rZMJ7wCBA9_uI9WZ7p-" version="13.7.9" type="github" pages="6">
   <diagram name="CI" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -470,10 +470,10 @@
             <mxPoint x="550" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0fTWC45DZ5GevHnAsYk-0" value="Artifact" style="html=1;" vertex="1" parent="M5f9IoiYDXhPrItpX3NM-1">
+        <mxCell id="P0fTWC45DZ5GevHnAsYk-0" value="Artifact" style="html=1;" parent="M5f9IoiYDXhPrItpX3NM-1" vertex="1">
           <mxGeometry x="880" y="417" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P0fTWC45DZ5GevHnAsYk-1" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="M5f9IoiYDXhPrItpX3NM-1" source="fKTaUs-8ha1LyUPK2VIj-0" target="P0fTWC45DZ5GevHnAsYk-0">
+        <mxCell id="P0fTWC45DZ5GevHnAsYk-1" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="M5f9IoiYDXhPrItpX3NM-1" source="fKTaUs-8ha1LyUPK2VIj-0" target="P0fTWC45DZ5GevHnAsYk-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="830" y="470" as="sourcePoint" />
             <mxPoint x="880" y="420" as="targetPoint" />
@@ -502,7 +502,7 @@
         <mxCell id="qWNKkUxJs4zmAamX2YIz-6" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;AloraPlus_Release&lt;/font&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#10739E;strokeColor=none;fontSize=17;fontStyle=1;align=center;" parent="qWNKkUxJs4zmAamX2YIz-5" vertex="1">
           <mxGeometry width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qWNKkUxJs4zmAamX2YIz-7" value="&lt;div style=&quot;font-size: 10px&quot;&gt;Branch: &lt;b&gt;develop&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Trigger: &lt;b&gt;Manual&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Frequency: &lt;b&gt;every 2 weeks&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;File:&lt;b&gt; jenkinsfile_release&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Params: &lt;b&gt;Version Number&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Artifacts: &lt;b&gt;WebApp.zip, scripts.sql&lt;/b&gt;&lt;/div&gt;" style="shape=rect;fillColor=#B1DDF0;strokeColor=none;fontSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;" parent="qWNKkUxJs4zmAamX2YIz-5" vertex="1">
+        <mxCell id="qWNKkUxJs4zmAamX2YIz-7" value="&lt;div style=&quot;font-size: 10px&quot;&gt;Branch: &lt;b&gt;develop&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Trigger: &lt;b&gt;Manual&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Frequency: &lt;b&gt;On Demand&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;File:&lt;b&gt; jenkinsfile&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Params: &lt;b&gt;Version Number&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Artifacts: &lt;b&gt;WebApp.zip, scripts.sql&lt;/b&gt;&lt;/div&gt;" style="shape=rect;fillColor=#B1DDF0;strokeColor=none;fontSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;" parent="qWNKkUxJs4zmAamX2YIz-5" vertex="1">
           <mxGeometry y="40" width="190" height="98" as="geometry" />
         </mxCell>
         <mxCell id="qWNKkUxJs4zmAamX2YIz-8" value="" style="group" parent="-XchORB1sOgm_aGVcK5D-1" vertex="1" connectable="0">
@@ -622,16 +622,16 @@
         <mxCell id="qWNKkUxJs4zmAamX2YIz-16" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;AloraDatabase&lt;/font&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#10739E;strokeColor=none;fontSize=17;fontStyle=1;align=center;" parent="qWNKkUxJs4zmAamX2YIz-15" vertex="1">
           <mxGeometry width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qWNKkUxJs4zmAamX2YIz-17" value="&lt;div style=&quot;font-size: 10px&quot;&gt;Branch: &lt;b&gt;develop&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Trigger: &lt;b&gt;Manual&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Frequency: &lt;b&gt;every 2 weeks&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;File:&lt;b&gt; jenkinsfile_release&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Params: &lt;b&gt;Version Number&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Artifacts: &lt;b&gt;WebApp.zip, scripts.sql&lt;/b&gt;&lt;/div&gt;" style="shape=rect;fillColor=#B1DDF0;strokeColor=none;fontSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;" parent="qWNKkUxJs4zmAamX2YIz-15" vertex="1">
+        <mxCell id="qWNKkUxJs4zmAamX2YIz-17" value="&lt;div style=&quot;font-size: 10px&quot;&gt;Branch: &lt;b&gt;By Param&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Trigger: &lt;b&gt;Manual&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Frequency: &lt;b&gt;On Demand&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;File:&lt;b&gt; jenkinsfile&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Params: &lt;b&gt;Version Number, Branch&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Artifacts: &lt;b&gt;scripts.sql&lt;/b&gt;&lt;/div&gt;" style="shape=rect;fillColor=#B1DDF0;strokeColor=none;fontSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;" parent="qWNKkUxJs4zmAamX2YIz-15" vertex="1">
           <mxGeometry y="40" width="190" height="98" as="geometry" />
         </mxCell>
         <mxCell id="qWNKkUxJs4zmAamX2YIz-19" value="" style="group" parent="-XchORB1sOgm_aGVcK5D-1" vertex="1" connectable="0">
           <mxGeometry x="40" y="50" width="200" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="qWNKkUxJs4zmAamX2YIz-20" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;AloraPlus&lt;/font&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#10739E;strokeColor=none;fontSize=17;fontStyle=1;align=center;" parent="qWNKkUxJs4zmAamX2YIz-19" vertex="1">
+        <mxCell id="qWNKkUxJs4zmAamX2YIz-20" value="&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;AloraPlus_Daily&lt;/font&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#10739E;strokeColor=none;fontSize=17;fontStyle=1;align=center;" parent="qWNKkUxJs4zmAamX2YIz-19" vertex="1">
           <mxGeometry width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qWNKkUxJs4zmAamX2YIz-21" value="&lt;div style=&quot;font-size: 10px&quot;&gt;Branch: &lt;b&gt;develop&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Trigger: &lt;b&gt;Manual&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Frequency: &lt;b&gt;every 2 weeks&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;File:&lt;b&gt; jenkinsfile_release&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Params: &lt;b&gt;Version Number&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Artifacts: &lt;b&gt;WebApp.zip, scripts.sql&lt;/b&gt;&lt;/div&gt;" style="shape=rect;fillColor=#B1DDF0;strokeColor=none;fontSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;" parent="qWNKkUxJs4zmAamX2YIz-19" vertex="1">
+        <mxCell id="qWNKkUxJs4zmAamX2YIz-21" value="&lt;div style=&quot;font-size: 10px&quot;&gt;Branch: &lt;b&gt;develop&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Trigger: &lt;b&gt;automatically&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Frequency: &lt;b&gt;every day&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;File:&lt;b&gt; jenkinsfile_daily&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Params: &lt;b&gt;-&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;Artifacts: &lt;b&gt;-&lt;/b&gt;&lt;/div&gt;" style="shape=rect;fillColor=#B1DDF0;strokeColor=none;fontSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;" parent="qWNKkUxJs4zmAamX2YIz-19" vertex="1">
           <mxGeometry y="40" width="190" height="98" as="geometry" />
         </mxCell>
       </root>
